@@ -11,5 +11,3 @@ This project analyzes behavioral patterns in posts by users who self-identify as
 Key Insights:
 - ADHD-related tweets often highlight cycles of focus issues, emotional struggle, and disrupted routines.
 - Topic evolution suggests shifting awareness and terminology (e.g., increased use of "executive dysfunction" after 2020).
-
-📝 [Full project repo](https://github.com/yourusername/adhd-twitter-nlp)
