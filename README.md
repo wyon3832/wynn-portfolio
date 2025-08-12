@@ -1,13 +1,17 @@
-# wynn-portfolio
+# Reddit ADHD Topic Modeling (LDA)
 
-## Project 1: ADHD Behavior on Reddit — An NLP Exploration
+Exploring how individuals with ADHD express themselves on Reddit using Latent Dirichlet Allocation (LDA) to uncover key discussion themes.
 
-This project analyzes behavioral patterns in posts by users who self-identify as having ADHD. Using topic modeling (LDA) and clustering (K-means), it explores how language use reveals cognitive and emotional trends.
+## About
+This study explores how individuals with Attention Deficit Hyperactivity Disorder (ADHD) express themselves on Reddit, focusing on uncovering trends and patterns in ADHD-related discussions. Using a dataset of over 1 million posts from ADHD-focused subreddits, we aimed to identify key themes that reflect the lived experiences of this community.
 
-- **Tech Stack**: Python, Pandas, Scikit-learn, Gensim, NLTK, Matplotlib
-- **Techniques**: LDA Topic Modeling, TF-IDF, K-means Clustering
-- **Notebook**: [`adhd_twitter_analysis.ipynb`]()
+We applied machine learning techniques to analyze the dataset, beginning with K-means clustering, which was ultimately ineffective for extracting meaningful patterns. We then employed Latent Dirichlet Allocation (LDA) topic modeling, which identified five distinct themes:
 
-Key Insights:
-- ADHD-related tweets often highlight cycles of focus issues, emotional struggle, and disrupted routines.
-- Topic evolution suggests shifting awareness and terminology (e.g., increased use of "executive dysfunction" after 2020).
+- Emotional support  
+- ADHD diagnosis  
+- Time management  
+- Medication-related discussions  
+- Academic/workplace challenges  
+
+Our findings illustrate various aspects of ADHD-related struggles and highlight the potential of online platforms like Reddit for understanding these challenges. While LDA was effective in highlighting key themes, limitations included overlapping topics and the inherent biases of social media data. Future research could include incorporating sentiment analysis and leveraging advanced models such as large language models (LLMs) for deeper insights.
+
